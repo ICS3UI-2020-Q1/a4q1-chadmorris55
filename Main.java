@@ -19,7 +19,7 @@ public class Main {
     //place where the counting starts from
     int numStart = 100;
     System.out.println("Count Down:");
-    while (numStart > numEnd){
+    while (numStart >= numEnd){
       System.out.println(numStart);
       numStart = numStart - 5;
     }
